@@ -1,0 +1,36 @@
+.container {
+  padding: 80px 40px;
+  .productsContainer {
+    display: flex;
+    justify-content: space-between;
+    .productsList {
+      display: flex;
+      width: 45%;
+      ul {
+        list-style-type: none;
+        width: 100%;
+      }
+    }
+    .checkout {
+      background-color: #ddd;
+      width: 45%;
+      .tableHeader {
+        width: 100%;
+        display: flex;
+        .product {
+          width: 60%;
+        }
+        .quantity {
+          width: 20%;
+        }
+        .value {
+          width: 20%;
+          text-align: end;
+        }
+      }
+    }
+  }
+  .currencySelector {
+    width: 150px;
+  }
+}

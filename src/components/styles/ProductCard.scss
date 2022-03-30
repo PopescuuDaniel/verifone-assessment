@@ -1,0 +1,21 @@
+.productContainer {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: space-between;
+  .content {
+    display: flex;
+  }
+  .price {
+    display: flex;
+  }
+  .priceCurrency {
+    display: flex;
+  }
+  .button {
+    display: flex;
+    margin-left: 25px;
+  }
+}

@@ -1,1 +1,6 @@
-# verifone-assessment
+Verifone
+
+Start project
+
+- npm install
+- npm start
