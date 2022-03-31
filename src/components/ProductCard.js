@@ -20,8 +20,10 @@ function ProductCard(props) {
           </div>
         </div>
         <button className="button" onClick={handleClick}>
-          <div>img</div>
-          <div>Add to cart</div>
+          <div className="img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shopping_cart_icon.svg/1200px-Shopping_cart_icon.svg.png"></img>
+          </div>
+          <div className="add">Add to cart</div>
         </button>
       </div>
     </div>

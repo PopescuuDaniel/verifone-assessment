@@ -17,5 +17,13 @@
   .button {
     display: flex;
     margin-left: 25px;
+    background-color: rgb(82, 187, 82);
+    align-items: center;
+    .img {
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 }

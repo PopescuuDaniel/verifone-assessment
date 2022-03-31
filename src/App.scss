@@ -14,19 +14,57 @@
     .checkout {
       background-color: #ddd;
       width: 45%;
+      p {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .checkk {
+        border-bottom: solid 4px black;
+        ul li {
+          list-style-type: none;
+        }
+      }
       .tableHeader {
         width: 100%;
         display: flex;
         .product {
           width: 60%;
+          font-size: 25px;
         }
         .quantity {
           width: 20%;
+          font-size: 25px;
         }
         .value {
           width: 20%;
           text-align: end;
+          font-size: 25px;
         }
+      }
+      .total {
+        display: flex;
+        justify-content: flex-end;
+        .totall {
+          display: flex;
+          margin-left: 15px;
+          p {
+            margin-left: 10px;
+            margin-right: 5px;
+          }
+        }
+      }
+      .continue {
+        width: 700px;
+        height: 100px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: xx-large;
+        border-radius: 9px;
+        border: #9f9f9f 4px;
+        box-shadow: 3px;
+        background-color: rgb(11, 221, 11);
+        margin-left: 60px;
+        font-weight: bold;
       }
     }
   }

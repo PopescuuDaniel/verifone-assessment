@@ -94,7 +94,7 @@ function App() {
             <div className="quantity">Quantity</div>
             <div className="value">Value</div>
           </div>
-          <div>
+          <div className="checkk">
             <ul>
               {checkoutProducts.map((item) => {
                 return (
@@ -110,15 +110,17 @@ function App() {
                   </li>
                 );
               })}
-              ;
             </ul>
           </div>
           <div>
-            <p>Total:</p>
-            <div>
-              <p>{currency.value}</p>
-              <p>{total.toFixed(2)}</p>
+            <div className="total">
+              <p>Total:</p>
+              <div className="totall">
+                <p>{currency.value}</p>
+                <p>{total.toFixed(2)}</p>
+              </div>
             </div>
+            <button className="continue">Continue</button>
           </div>
         </div>
       </div>

@@ -7,16 +7,19 @@ function CheckoutProductCard(props) {
   const handleClick = () => onClickRemoveItem(id);
 
   return (
-    <div key={id} className="container">
-      <div>
+    <div key={id} className="containerCheck">
+      <div className="check">
         <button onClick={handleClick}>X</button>
         <div className="name">{name}</div>
-        <div className="descripton">{description}</div>
+        <span className="hover">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/1024px-Infobox_info_icon.svg.png"></img>
+        </span>
+        <div className="description">{description}</div>
       </div>
-      <div>
+      <div className="quantity">
         <input></input>
       </div>
-      <div>{currency.value}</div>
+      <div className="value">{currency.value}</div>
       <div>{price}</div>
     </div>
   );

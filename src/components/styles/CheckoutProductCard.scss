@@ -1,0 +1,55 @@
+.containerCheck {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+
+  .check {
+    display: flex;
+    justify-content: flex-start;
+
+    button {
+      width: 20px;
+      height: 20px;
+      background-color: #861515;
+      text-align: center;
+      padding-right: 15px;
+      margin-top: 15px;
+      margin-right: 15px;
+    }
+    .name {
+      font-size: 20px;
+    }
+    .hover {
+      display: block;
+      padding: 15px;
+      border-radius: 20px;
+      width: 10px;
+      height: 15px;
+      cursor: pointer;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  .description {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+    color: black;
+  }
+  .hover:hover + .description {
+    display: block;
+  }
+  .quantity {
+    margin-left: 250px;
+  }
+  .value {
+    width: 100px;
+    margin-left: 120px;
+  }
+}
